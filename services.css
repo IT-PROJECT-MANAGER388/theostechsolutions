@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.hero .logo{
+
+    width: 80px;
+    height: 50px;
+
+}
+
+header{
+
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+header p{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.menu a{
+
+    text-decoration: none;
+    margin: 25px;
+    color: #fff;
+
+}
+
+.menu a:hover{
+
+    color: blue;
+    border-bottom: 2px solid red;
+
+}
+
+.hero{
+
+    background-image: url(images/services_cover.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 60vh;
+
+}
+
+.hero .description{
+
+    color:#fff;
+    position: relative;
+    top: 150px;
+    left: 130px;
+
+}
+
+.offers{
+
+    text-align: center;
+
+}
+
+.offers span{
+
+    color: blue;
+
+}
+
+.fa-solid,
+.description{
+
+    color: blue;
+
+}
+
+.col{
+
+    display: inline-block;
+    width: 400px;
+    margin: 10px;
+    border: 1px solid hsl(0, 2%, 37%);
+    padding: 10px;
+
+}
+
+
+/* ===================================================================================================================== */
+/*                                              HAVE A PROJECT IN MIND SECTION                                           */
+/* ===================================================================================================================== */
+
+
+.project-in-mind{
+
+    text-align: center;
+    background-color: blue;
+    padding: 40px;
+    color: #fff;
+
+}
+
+.col_mind{
+
+    display: inline-block;
+    width: 400px;
+
+}
+
+button{
+
+    outline: none;
+    padding: 5px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    display: inline-block;
+
+}
+
+/* =================================================================================================================== */
+/*                                                  FOOTER SECTION                                                     */
+/* =================================================================================================================== */
+
+.footer-logo{
+
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+
+.f_row{
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+
+.f_col{
+
+    flex-basis: 25%;
+    padding: 10px;
+
+}
+
+.f_col:nth-child(2), .f_col:nth-child(3){
+
+    flex-basis: 15%;
+
+}
+
+.f_col ul{
+
+    width: fit-content;
+}
+
+ul li{
+
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 12px;
+
+}
+
+ul a{
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.f_col h3{
+
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+.f_col p{
+
+    width: fit-content;
+    margin-bottom: 12px;
+
+}
+
+.email-id{
+
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+
+}
+
+footer{
+
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    padding-top: 50px;
+    position: relative;
+    bottom: 0;
+    font-size: 13px;
+
+}

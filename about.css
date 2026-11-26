@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ===================================================================================================================== */
+/*                                                  HEADER-SECTION                                                       */
+/* ===================================================================================================================== */
+
+header img{
+
+    width: 80px;
+    height: 50px;
+
+}
+
+
+header{
+
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+header p{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu a{
+
+    text-decoration: none;
+    margin: 25px;
+    color: #fff;
+}
+
+.menu a:hover{
+
+    color: blue;
+    border-bottom: 2px solid red;
+    
+}
+
+.hero{  /* BACKGROUND-IMAGE */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),url(images/about_cover.jpg);
+    background-position: center top;
+    background-repeat: no-repeate;
+    background-size: cover;
+    height: 50vh;
+
+}
+
+.hero div{  /* DESCRIPTION ON BACKGROUND IMAGE */
+
+    color: #fff;
+    position: relative;
+    top: 150px;
+    left: 130px;
+
+}
+
+/* ===================================================================================================================== */
+/*                                                  WHO-WE-ARE-SECTION                                                   */
+/* ===================================================================================================================== */
+
+.who-we-are{
+
+    text-align: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.who-we-are span{
+
+    color: blue;
+
+}
+
+.office-image, .team-image{
+
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+    
+
+}
+
+.row{
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: flex-start;
+
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4{ 
+
+    flex-basis: 40%;
+    margin: 20px;
+    
+
+}
+
+/* ===================================================================================================================== */
+/*                                               OUR VALUES SECTION                                                      */
+/* ===================================================================================================================== */
+
+.our-values{
+
+    text-align: center;
+
+}
+
+
+
+.our-values span{
+
+    color:blue;
+}
+
+.fa-solid{
+
+    color:blue;
+    
+}
+
+.col-value{
+
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+
+}
+
+/* ===================================================================================================================== */
+/*                                                 CONTACT US SECTION                                                    */
+/* ===================================================================================================================== */
+
+.contact-us{
+
+    text-align: center;
+
+}
+
+.footer-logo{
+
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+
+.row{
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.col{
+
+    flex-basis: 25%;
+    padding: 10px;
+
+}
+
+.col:nth-child(2), .col:nth-child(3){
+
+    flex-basis: 15%;
+
+}
+
+.col ul{
+
+    width: fit-content;
+
+}
+
+ul li{
+
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 12px;
+
+}
+
+ul a{
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.col h3{
+
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+.col p{
+
+    width: fit-content;
+    margin-bottom: 12px;
+    
+}
+
+.email-id{
+
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+
+}
+
+/* ===================================================================================================================== */
+/*                                                   FOOTER                                                              */
+/* ===================================================================================================================== */
+
+footer{
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    padding-top: 50px;
+    font-size: 13px;
+    
+}
+
+/* ===================================================================================================================== */
+/*                                                  MEDIA-QUERIES                                                        */
+/* ===================================================================================================================== */
+
+@media  (max-width:767px) and (orientation: portrait) {
+
+    main{
+
+        text-align: center;
+    }
+
+    .who-we-are{  /* WHO WE ARE SECTION */
+
+        padding: 0;
+        
+    }
+
+    .office-image{
+
+        width: 300px;
+        
+    }
+
+    .team-image{
+
+        width: 300px;
+    }
+
+.col_1,
+.col_2,
+.col_3,
+.col_4{ 
+
+    flex-basis: 100%;
+    
+
+}
+
+.who-we-are div{
+
+    margin: auto;
+
+}
+   
+}
+
+
+
+
+
+

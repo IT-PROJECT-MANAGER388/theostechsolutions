@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+html, body{
+
+    overflow-x: clip;
+    width: 100%;
+}
+
+
+.logo img{
+
+    width: 70px;
+    height: 50px;
+}
+
+
+
+
+.word-tech{
+
+    color: rgb(170, 28, 28);
+
+}
+
+
+header{
+
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 25px;
+
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+header p{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: skyblue;
+    font-weight: bold;
+
+}
+
+header em{
+
+    font-weight: bolder;
+
+}
+
+
+.menu a{
+
+    text-decoration: none;
+    margin: 25px;
+    color: #fff;
+}
+
+
+.menu a:hover{
+
+    color: blue;
+    border-bottom: 3px solid red;
+}
+
+
+.hero{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5)),url(images/theos_tech_coverpage.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.hero .description{
+
+    position: relative;
+    top: 160px;
+    left: 50px;
+}
+
+
+.hero h2{
+
+    color: antiquewhite;
+    font-size: 50px;
+
+}
+
+
+.digital-word{
+
+    color: blue;
+}
+
+
+.description p{
+
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+
+
+/* ===================================================================================================================== */
+/*                                                WHAT WE DO SECTION                                                     */
+/* ===================================================================================================================== */
+
+.what-we-do{   /* WHAT WE DO SECTION */
+
+    text-align: center;
+}
+
+
+.what-we-do span{
+
+    color: blue;
+
+}
+
+
+.we-word{
+
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+}
+
+
+.services{
+
+    display: inline-block;
+    width: 250px;
+    margin: 5px;
+    margin-top: 10px;
+    
+}
+
+
+
+/* ===================================================================================================================== */
+/*                                                  ICONS SECTION                                                        */
+/* ===================================================================================================================== */
+
+.fa-solid{
+
+    color: blue;
+}
+
+
+.fa-regular{
+
+    color: blue;
+
+}
+
+
+/* ===================================================================================================================== */
+/*                                             WHY CHOOSE US SECTION                                                     */
+/* ===================================================================================================================== */
+
+.why-choose-us{   /* WHY CHOOSE US SECTION */
+
+    text-align: center;
+    background: #000;
+    padding: 20px;
+
+}
+
+
+.why-choose-us h3 span{
+
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+}
+
+
+.why-us span{
+
+    font-weight: bold;
+
+
+}
+
+
+.why-us{
+
+    margin-top: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.why-choose-us h3{
+
+    color: antiquewhite;
+
+}
+
+
+.why-us p{
+
+    color: antiquewhite;
+
+}
+
+
+/* ==================================================================================================================== */
+/*                                                 CONTACT US SECTION                                                   */
+/* ==================================================================================================================== */
+
+.contact-us{   /* CONTACT US SECTION */
+
+    padding: 20px;
+    text-align: center;
+    color: antiquewhite;
+    background: blue;
+
+}
+
+
+
+.us{
+
+    display: inline-block;
+    
+}
+
+
+.btn-contact{
+
+    padding: 15px;
+    color: antiquewhite;
+    background: #000;
+    border: none;
+    border-radius: 25px;
+    margin-left: 100px;
+    
+}
+
+
+/* ===================================================================================================================== */
+/*                                                   FOOTER SECTION                                                      */
+/* ===================================================================================================================== */
+
+footer{
+
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    background: #000;
+    padding: 5px;
+    padding-top: 50px;
+
+}
+
+
+.footer-logo{
+
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+
+.row{
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: flex-start;
+
+}
+
+.col{
+
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+
+    flex-basis: 15%;
+}
+
+.col ul{
+
+    width: fit-content;
+}
+
+ul li{
+
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 12px;
+
+}
+
+ul  a{
+
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.col h3{
+
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+.col p{
+    
+    width: fit-content;
+    margin-bottom: 12px;
+}
+
+.email-id{
+
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+
